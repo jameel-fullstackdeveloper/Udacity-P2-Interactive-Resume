@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 300;
+    background-image: url("images/bg.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+	
+}
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+a {
+  color: #e86054;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+ul {
+  list-style-type: none;
+}
+header hgroup {
+     padding: 42px;
+}
+header figure {
+    border: 3px solid #eee;
+    border-radius: 78px;
+    height: 250px;
+    margin: 40px;
+    width: 250px;
+}
+.banner {
+	background: #fff none repeat scroll 0 0;
+    border-bottom: 4px solid #e86054;
+    overflow: hidden;
+}
+.biopic{
+    border-radius: 25px;
+}
+.skills{
+	background-color: #fff;
+	padding:20px;
+	border-bottom: 4px solid #e86054;
+}
+.work {
+	background-color: #fff;
+	padding:20px;
+	border-bottom: 4px solid #e86054;
+}
+.project {
+	background-color: #fff;
+	padding:20px;
+	border-bottom: 4px solid #e86054;
+ }
+.education {
+	background-color: #fff;
+    padding:20px;
+	border-bottom: 4px solid #e86054;
+ }
+.maparea {
+	background-color: #fff;
+    padding:20px;
+	border-bottom: 4px solid #e86054;
+ }
+.footercontact {
+	background-color: #fff;
+    padding:20px;
+	border-bottom: 4px solid #e86054;
+ }
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+
+}
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #000;
+  line-height: 28px;
+  font-weight:bold;
+}
+#skills-h3 {
+  color: #000;
+  display: none;
+}
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear:both;
+}
+.dark-gray {
+  background-color: #4a4a4a;
+}
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  color:#000;
+}
+#map{height:400px;}
+#lets-connect {
+  text-align: center;
+}
+
+

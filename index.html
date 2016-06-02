@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html language="eng">
+<head>
+  <title>Jameel Ahmed | Front-End Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper.js"></script>
+
+  
+</head>
+<body>
+
+	<div class="container">
+		<header class="banner">
+			<div class="row">
+				<div class="col-md-3 col-sm-3">
+					<figure><span id="pic"></span></figure>
+					
+				</div>
+				<div class="col-md-9 col-sm-9" >
+					<hgroup>
+						<div id="headertitle"></div>	
+						<div id="tagline"></div>
+						<ul id="topContacts" class="flex-box"></ul>
+					</hgroup>
+				</div>
+				
+			</div>
+		</header>
+			
+		
+		
+		<section class="mainsec">
+				<div id="main">
+				
+				<article>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div id="skillsarea" class="skills">
+								
+							</div>
+						</div>
+					</div>
+				</article>
+				
+				<article>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div id="workExperience" class="work">
+								<h2>Work Experience</h2>
+							</div>
+						</div>
+					</div>
+				</article>
+				
+				<article>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div id="projects" class="project">
+								<h2>Projects</h2>
+							</div>
+						</div>
+					</div>
+				</article>
+				
+				<article>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+								<div id="education" class="education">
+									<h2>Education</h2>
+								</div>
+						</div>
+					</div>
+				</article>
+				
+				
+				<article>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div id="mapDiv" class="maparea">
+								<h2>Where I've Lived and Worked</h2>
+							</div>
+						</div>
+					</div>
+				</article>
+			
+			
+		  </div>
+		
+			
+		</section>
+		
+		<footer>
+			<div id="lets-connect" class="footercontact">
+			  <h2 class="center-text">Let's Connect</h2>
+				<ul id="footerContacts" class="flex-box">
+			  </ul>
+			</div>
+		</footer>
+		
+		
+	</div>
+
+
+  
+
+ 
+  <script src="js/resumeBuilder.js"></script>
+ 
+  <script type="text/javascript">
+    // removing the flex class from ul
+	$('#topContacts').removeClass('flex-box');
+	$('#skills').removeClass('flex-box');
+
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.display = 'none';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.display = 'none';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.display = 'none';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+      document.getElementById('education').style.display = 'none';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('lets-connect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
